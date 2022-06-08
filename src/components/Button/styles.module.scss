@@ -1,0 +1,27 @@
+.button {
+  width: 16rem;
+  padding: 1rem 0;
+  font-size: 70%; //14px
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+
+  max-width: 100%;
+  border: 1px solid var(--red-100);
+  border-radius: 3px;
+  font-weight: 400;
+  letter-spacing: 0.06rem;
+  transition: 0.33s all ease;
+  white-space: normal;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+  background: var(--orange-800);
+  color: white;
+
+  &:hover {
+    background-color: var(--blue-700);
+    border-color: var(--blue-700);
+    color: white;
+  }
+}

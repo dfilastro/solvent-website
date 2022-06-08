@@ -1,0 +1,77 @@
+.contentContainer {
+  height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url(../../public/Foto7.jpeg);
+  background-size: contain;
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    padding-top: 30vh;
+    letter-spacing: 0.1rem;
+    color: white;
+
+    h1 {
+      font-size: 5rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.section1Container {
+  width: 80vw;
+  height: 40vh;
+  margin: 2rem auto 0 auto;
+  background: white;
+
+  .hero1Section1 {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+
+    letter-spacing: 0.05rem;
+    font-size: 1.5rem;
+
+    align-items: center;
+
+    gap: 2rem;
+
+    div {
+      display: flex;
+      gap: 2rem;
+    }
+  }
+
+  .hero2Section1 {
+    background: white;
+    margin-top: 2rem;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+
+    letter-spacing: 0.05rem;
+    font-size: 1.5rem;
+
+    align-items: center;
+
+    gap: 2rem;
+  }
+
+  .section2Container {
+    margin-top: 2rem;
+    height: 40vh;
+    background-color: blue;
+  }
+}
